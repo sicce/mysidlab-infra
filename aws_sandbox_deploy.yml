@@ -21,7 +21,7 @@
         vpc_subnet_id: subnet-e45a7a8c
         assign_public_ip: yes
         instance_tags:
-          Name: "Jonathan's Awesome Instance"
+          Name: "Jayesh's Awesome Instance"
           location: ohio-ansible-cluster
       register: ec2
 
@@ -48,4 +48,4 @@
   become: True
   gather_facts: True
   roles:
-    - jayesh_awesome_role
+    - my_awesome_role
